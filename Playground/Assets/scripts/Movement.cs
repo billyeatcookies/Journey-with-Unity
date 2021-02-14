@@ -6,13 +6,18 @@ public class Movement : MonoBehaviour
     private Rigidbody _rb;
     public float multiply;
     public float moveForce;
+    public float jumpForce;
     public float turnTorque;
+    public float hoverTorque;
 
     private const float TurnSmoothTime = 0.1f;
     private float _turnSmoothVelocity;
 
     private float _horizontal;
     private float _vertical;
+    private float _hover;
+    private float _jump;
+    
     private void Start()
     {
         _rb = gameObject.GetComponent<Rigidbody>();
@@ -23,13 +28,23 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _horizontal = Input.GetAxis("Horizontal");
         _vertical = Input.GetAxis("Vertical");
+        _jump = Input.GetAxis("Jump");
+        _horizontal = Input.GetAxis("Horizontal");
+        _hover = Input.GetAxis("Hover");
+
         for (var i = 0; i < 4; i++)
             ApplyForce(anchors[i], _hits[i]);
 
-        _rb.AddForce(_vertical * moveForce * transform.right);
-        _rb.AddTorque(Input.GetAxis("Horizontal") * turnTorque * transform.up);
+        var objectTransform = transform;
+        var right = objectTransform.right;
+        var up = objectTransform.up;
+        var forward = objectTransform.forward;
+        
+        _rb.AddForce(_vertical * moveForce * right);
+        _rb.AddForce(_jump * jumpForce * right);
+        _rb.AddTorque(_horizontal * turnTorque * up);
+        _rb.AddTorque(_hover * hoverTorque * forward);
     }
 
     private void ApplyForce(Transform anchor, RaycastHit hit)

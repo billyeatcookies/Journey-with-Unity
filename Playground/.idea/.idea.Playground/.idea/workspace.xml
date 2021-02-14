@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d69fae3-bb4b-45da-85d0-aeaa6b2d2d7b" name="Default Changelist" comment="" />
+    <list default="true" id="6d69fae3-bb4b-45da-85d0-aeaa6b2d2d7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Playground/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainData_2d721e09-6971-48d3-bce6-613bdc27a5d9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainData_2d721e09-6971-48d3-bce6-613bdc27a5d9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainData_755b2ea2-169f-4f8b-9548-de3f569ab0e4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainData_755b2ea2-169f-4f8b-9548-de3f569ab0e4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainData_e59e4557-1173-4e26-8ee5-d0c3ffa454c0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TerrainData_e59e4557-1173-4e26-8ee5-d0c3ffa454c0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -17,6 +32,7 @@
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oQmekGNrY0YLktg5nAqBC3SCXw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613227328572</updated>
       <workItem from="1613227521169" duration="5443000" />
-      <workItem from="1613275608030" duration="5377000" />
+      <workItem from="1613275608030" duration="10602000" />
     </task>
     <servers />
   </component>
@@ -73,6 +89,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
